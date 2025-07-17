@@ -14,79 +14,78 @@ Whether you're a beginner ready to move beyond syntax or someone brushing up you
 Each notebook explores a core intermediate concept and wraps it up with a real-world mini project to apply what you've learned:
 
 ---
+# Python Intermediate Notebooks
 
-### 📁 9. Functions & Parameters – *Calculator App*
+## 1. `09_python_intermediate.ipynb` – Dictionaries
+**Concepts:**
+- Accessing/modifying dictionary values
+- Adding/removing entries
+- Looping with `.items()`
+- Checking key existence (`in` keyword)
 
-You’ll learn to:
-- Define functions with `def`
-- Use arguments and return values
-- Create reusable code
+**Project: Contact Book**
+- Menu-driven CLI app to add, view, edit, search, and delete contacts.
+- Uses nested dictionaries for contact storage.
 
-🎯 **Mini Project**: A simple calculator using functions for each arithmetic operation.
+## 2. `10_python_intermediate.ipynb` – Tuples & Sets
+**Concepts:**
+- Tuple immutability and unpacking
+- Set operations: Union (`|`), Intersection (`&`), Difference (`-`)
+- Adding/removing set elements
 
----
+**Project: Ingredient Checker**
+- Compares recipe ingredients with user-input ingredients.
+- Identifies missing/extra ingredients using set differences.
 
-### 📁 10. Lambda, Map & Filter – *Even Square Filter*
+## 3. `11_python_intermediate.ipynb` – File Handling
+**Concepts:**
+- File modes: Read (`r`), Write (`w`), Append (`a`)
+- Context managers (`with` block)
+- Handling `FileNotFoundError`
 
-You’ll learn to:
-- Write anonymous functions with `lambda`
-- Apply `map()` and `filter()` to lists
+**Project: Note-Taking App**
+- Saves, views, and deletes notes in `notes.txt`.
+- Uses file append/write/read operations.
 
-🎯 **Mini Project**: Filter even numbers and return their squares using `lambda` + `map/filter`.
+## 4. `12_python_intermediate.ipynb` – Exception Handling
+**Concepts:**
+- `try-except-else-finally` blocks
+- Handling multiple exceptions (e.g., `ValueError`, `ZeroDivisionError`)
+- Raising custom exceptions (`raise ValueError`)
 
----
+**Project: Safe Calculator**
+- Performs arithmetic operations with input validation.
+- Prevents crashes on invalid inputs/divisions by zero.
 
-### 📁 11. Exception Handling – *Safe Division Calculator*
+## 5. `13_python_intermediate.ipynb` – Functions with Return Values
+**Concepts:**
+- Single vs. multiple return values
+- Returning calculations (e.g., area of a rectangle)
+- Best practices for clean returns
 
-You’ll learn to:
-- Use `try`, `except`, `finally`
-- Handle specific errors like `ZeroDivisionError`
-- Create custom exceptions
+**Project: Temperature Converter**
+- Converts between Celsius, Fahrenheit, and Kelvin.
+- Uses 6 dedicated conversion functions with rounded outputs.
 
-🎯 **Mini Project**: Calculator that performs division safely and handles all user input errors.
+## 6. `14_python_intermediate.ipynb` – List Comprehensions
+**Concepts:**
+- Basic syntax: `[x**2 for x in range(10)]`
+- Filtering: `[x for x in list if x % 2 == 0]`
+- Conditional logic: `["Even" if x%2==0 else "Odd" for x in numbers]`
 
----
+**Project: Student Grade Manager**
+- Assigns grades (A-F) based on scores using list comprehensions.
+- Filters passing/failing scores into separate lists.
 
-### 📁 12. File Handling – *Notes App*
+## 7. `15_python_intermediate.ipynb` – Modules & Libraries
+**Concepts:**
+- Importing built-in modules (`math`, `random`, `string`)
+- Creating/using custom modules (e.g., `greetings.py`)
+- Aliasing imports (`import random as r`)
 
-You’ll learn to:
-- Read/write text files with `open()`
-- Use `with` context manager
-- Understand file modes like `r`, `w`, `a`
-
-🎯 **Mini Project**: A simple notes app that stores and retrieves notes from a `.txt` file.
-
----
-
-### 📁 13. List Methods – *To-Do List Manager*
-
-You’ll learn to:
-- Work with lists using methods like `append`, `pop`, `sort`
-- Use `.copy()` and slicing for list manipulation
-
-🎯 **Mini Project**: A console-based to-do manager using list operations.
-
----
-
-### 📁 14. List Comprehensions – *Student Grade Manager*
-
-You’ll learn to:
-- Use concise `for`-based list comprehensions
-- Filter and transform data in one line
-
-🎯 **Mini Project**: Grade students based on marks and filter those who passed—all in a few lines of Python.
-
----
-
-### 📁 15. Modules & Libraries – *Random Password Generator*
-
-You’ll learn to:
-- Import built-in modules (`random`, `math`, `string`)
-- Create your own modules
-- Use `random.choices()` to generate data
-
-🎯 **Mini Project**: Strong password generator that uses symbols, letters, and numbers.
-
+**Project: Random Password Generator**
+- Generates secure passwords with uppercase, lowercase, digits, and symbols.
+- Uses `random.choices()` and enforces minimum length.
 ---
 
 ## 🔗 GitHub Links
